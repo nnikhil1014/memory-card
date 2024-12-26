@@ -11,7 +11,7 @@ const Card = ({ name, image, onCardClick }) => {
         />
       </a>
       <div className="p-3">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black capitalize">
           {name}
         </h5>
       </div>
