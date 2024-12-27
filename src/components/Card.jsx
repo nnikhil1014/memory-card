@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ name, image, onCardClick }) => {
+const Card = ({ id, image, onCardClick }) => {
   return (
     <div className="card " onClick={onCardClick}>
       <a href="#">
@@ -12,7 +12,7 @@ const Card = ({ name, image, onCardClick }) => {
       </a>
       <div className="p-3">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black capitalize">
-          {name}
+          {id}
         </h5>
       </div>
     </div>
